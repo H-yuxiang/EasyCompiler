@@ -1,0 +1,25 @@
+/*int if = 3;
+	return 1==1;
+*/
+int  program(int a,int b,int c)
+{
+	int i;
+	int j;
+	i = 0;
+  	if(a>=(b+c)) {
+		j=a+(b*c+1);
+		if(i != 98) {j = i*j-1;}
+	}
+	else{
+		int if123;
+		if123 = 2-i;
+		j = 2;
+		while(if123<=100)
+		{
+			j=j*2;
+			if123 = j + 1;
+		}
+	}
+	i = j - (3/1 + i);
+	return a-b*i+c;
+}

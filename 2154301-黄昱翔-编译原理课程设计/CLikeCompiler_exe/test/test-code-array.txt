@@ -1,0 +1,36 @@
+int program(int a,int b,int c)
+{
+	int i;
+	int j;
+	i=2;
+	if(a>(b+c))
+	{
+		j=a+(b*c+1);
+	}
+	else
+	{
+		j=a;
+	}	
+	while(i<=100)
+	{
+		i=i*2;
+	}
+	return i+j;
+}
+int demo(int a)
+{
+	a=a+2;
+	return a*2;
+}
+int a[2][2];//指导书的语法没有支持非全局数组
+void main(void)
+{
+	int iu;
+	a[0][0]=3;
+	iu=a[0][0];
+	a[0][1]=a[0][0]+1;
+	a[1][0]=a[0][1]+7;
+	a[1][1]=program(a[0][0],a[0][1],demo(a[1][0]));
+	iu=a[1][1];//131
+	return;
+}

@@ -1,0 +1,28 @@
+/*56gjfvnldc
+*/
+int program(int a,int b,int c)
+{
+	int i;
+	int j;
+	i=4651; 	
+	if(a>(b+c))
+	{
+		j=a+(b*c+1);
+	}
+	else
+	{
+		j=a;
+	}
+	while(i<=2)
+	{
+		i=j*2;
+	}
+	return i;
+}
+
+int demo(int a)
+{
+	a=a+2;
+	return a*2;
+}
+

@@ -1,0 +1,1813 @@
+Step1:
+StateStack:0 
+SymbolStack:# 
+action:s4
+Step2:
+StateStack:0 4 
+SymbolStack:# int 
+action:s7
+Step3:
+StateStack:0 4 7 
+SymbolStack:# int identifier 
+action:s13
+Step4:
+StateStack:0 4 7 13 
+SymbolStack:# int identifier ( 
+action:s20
+Step5:
+StateStack:0 4 7 13 20 
+SymbolStack:# int identifier ( int 
+action:s24
+Step6:
+StateStack:0 4 7 13 20 24 
+SymbolStack:# int identifier ( int identifier 
+action:r16
+Step7:
+StateStack:0 4 7 13 19 
+SymbolStack:# int identifier ( para 
+action:s23
+Step8:
+StateStack:0 4 7 13 19 23 
+SymbolStack:# int identifier ( para , 
+action:s20
+Step9:
+StateStack:0 4 7 13 19 23 20 
+SymbolStack:# int identifier ( para , int 
+action:s24
+Step10:
+StateStack:0 4 7 13 19 23 20 24 
+SymbolStack:# int identifier ( para , int identifier 
+action:r16
+Step11:
+StateStack:0 4 7 13 19 23 19 
+SymbolStack:# int identifier ( para , para 
+action:s23
+Step12:
+StateStack:0 4 7 13 19 23 19 23 
+SymbolStack:# int identifier ( para , para , 
+action:s20
+Step13:
+StateStack:0 4 7 13 19 23 19 23 20 
+SymbolStack:# int identifier ( para , para , int 
+action:s24
+Step14:
+StateStack:0 4 7 13 19 23 19 23 20 24 
+SymbolStack:# int identifier ( para , para , int identifier 
+action:r16
+Step15:
+StateStack:0 4 7 13 19 23 19 23 19 
+SymbolStack:# int identifier ( para , para , para 
+action:r14
+Step16:
+StateStack:0 4 7 13 19 23 19 23 28 
+SymbolStack:# int identifier ( para , para , para_list 
+action:r15
+Step17:
+StateStack:0 4 7 13 19 23 28 
+SymbolStack:# int identifier ( para , para_list 
+action:r15
+Step18:
+StateStack:0 4 7 13 17 
+SymbolStack:# int identifier ( para_list 
+action:r12
+Step19:
+StateStack:0 4 7 13 16 
+SymbolStack:# int identifier ( formal_para 
+action:s22
+Step20:
+StateStack:0 4 7 13 16 22 
+SymbolStack:# int identifier ( formal_para ) 
+action:s27
+Step21:
+StateStack:0 4 7 13 16 22 27 
+SymbolStack:# int identifier ( formal_para ) { 
+action:s34
+Step22:
+StateStack:0 4 7 13 16 22 27 34 
+SymbolStack:# int identifier ( formal_para ) { int 
+action:s48
+Step23:
+StateStack:0 4 7 13 16 22 27 34 48 
+SymbolStack:# int identifier ( formal_para ) { int identifier 
+action:r21
+Step24:
+StateStack:0 4 7 13 16 22 27 33 
+SymbolStack:# int identifier ( formal_para ) { inter_argument_declaration 
+action:s47
+Step25:
+StateStack:0 4 7 13 16 22 27 33 47 
+SymbolStack:# int identifier ( formal_para ) { inter_argument_declaration ; 
+action:s34
+Step26:
+StateStack:0 4 7 13 16 22 27 33 47 34 
+SymbolStack:# int identifier ( formal_para ) { inter_argument_declaration ; int 
+action:s48
+Step27:
+StateStack:0 4 7 13 16 22 27 33 47 34 48 
+SymbolStack:# int identifier ( formal_para ) { inter_argument_declaration ; int identifier 
+action:r21
+Step28:
+StateStack:0 4 7 13 16 22 27 33 47 33 
+SymbolStack:# int identifier ( formal_para ) { inter_argument_declaration ; inter_argument_declaration 
+action:s47
+Step29:
+StateStack:0 4 7 13 16 22 27 33 47 33 47 
+SymbolStack:# int identifier ( formal_para ) { inter_argument_declaration ; inter_argument_declaration ; 
+action:r19
+Step30:
+StateStack:0 4 7 13 16 22 27 33 47 65 
+SymbolStack:# int identifier ( formal_para ) { inter_argument_declaration ; inter_declaration 
+action:r20
+Step31:
+StateStack:0 4 7 13 16 22 27 31 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration 
+action:s40
+Step32:
+StateStack:0 4 7 13 16 22 27 31 40 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration identifier 
+action:s50
+Step33:
+StateStack:0 4 7 13 16 22 27 31 40 50 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration identifier = 
+action:s59
+Step34:
+StateStack:0 4 7 13 16 22 27 31 40 50 59 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration identifier = number 
+action:r50
+Step35:
+StateStack:0 4 7 13 16 22 27 31 40 50 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration identifier = divisor 
+action:r47
+Step36:
+StateStack:0 4 7 13 16 22 27 31 40 50 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration identifier = item 
+action:r44
+Step37:
+StateStack:0 4 7 13 16 22 27 31 40 50 55 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration identifier = add_expression 
+action:r35
+Step38:
+StateStack:0 4 7 13 16 22 27 31 40 50 66 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration identifier = expression 
+action:s88
+Step39:
+StateStack:0 4 7 13 16 22 27 31 40 50 66 88 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration identifier = expression ; 
+action:r28
+Step40:
+StateStack:0 4 7 13 16 22 27 31 39 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration assign_state 
+action:r27
+Step41:
+StateStack:0 4 7 13 16 22 27 31 35 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state 
+action:s44
+Step42:
+StateStack:0 4 7 13 16 22 27 31 35 44 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if 
+action:s63
+Step43:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( 
+action:s60
+Step44:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( identifier 
+action:r53
+Step45:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( divisor 
+action:r47
+Step46:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( item 
+action:r44
+Step47:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression 
+action:s73
+Step48:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 73 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression > 
+action:r40
+Step49:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop 
+action:s56
+Step50:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( 
+action:s60
+Step51:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( identifier 
+action:r53
+Step52:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( divisor 
+action:r47
+Step53:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( item 
+action:s79
+Step54:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 57 79 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( item + 
+action:s60
+Step55:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 57 79 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( item + identifier 
+action:r53
+Step56:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 57 79 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( item + divisor 
+action:r47
+Step57:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 57 79 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( item + item 
+action:r44
+Step58:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 57 79 94 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( item + add_expression 
+action:r45
+Step59:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 77 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( add_expression 
+action:r35
+Step60:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 78 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( expression 
+action:s93
+Step61:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 56 78 93 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop ( expression ) 
+action:r51
+Step62:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop divisor 
+action:r47
+Step63:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop item 
+action:r44
+Step64:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 55 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop add_expression 
+action:r35
+Step65:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 55 70 91 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( add_expression relop expression 
+action:r37
+Step66:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression 
+action:s111
+Step67:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) 
+action:s129
+Step68:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { 
+action:s40
+Step69:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier 
+action:s50
+Step70:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = 
+action:s60
+Step71:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = identifier 
+action:r53
+Step72:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = divisor 
+action:r47
+Step73:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item 
+action:s79
+Step74:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + 
+action:s95
+Step75:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( 
+action:s60
+Step76:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( identifier 
+action:r53
+Step77:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( divisor 
+action:s81
+Step78:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 58 81 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( divisor * 
+action:s60
+Step79:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 58 81 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( divisor * identifier 
+action:r53
+Step80:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 58 81 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( divisor * divisor 
+action:r47
+Step81:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 58 81 97 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( divisor * item 
+action:r48
+Step82:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( item 
+action:s79
+Step83:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 57 79 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( item + 
+action:s59
+Step84:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 57 79 59 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( item + number 
+action:r50
+Step85:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 57 79 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( item + divisor 
+action:r47
+Step86:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 57 79 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( item + item 
+action:r44
+Step87:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 57 79 94 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( item + add_expression 
+action:r45
+Step88:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 55 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( add_expression 
+action:r35
+Step89:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 78 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( expression 
+action:s93
+Step90:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 95 78 93 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + ( expression ) 
+action:r51
+Step91:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + divisor 
+action:r47
+Step92:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + item 
+action:r44
+Step93:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 57 79 94 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = item + add_expression 
+action:r45
+Step94:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 55 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = add_expression 
+action:r35
+Step95:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 66 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = expression 
+action:s88
+Step96:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 40 50 66 88 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { identifier = expression ; 
+action:r28
+Step97:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 39 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { assign_state 
+action:r27
+Step98:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 35 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { state 
+action:r22
+Step99:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 149 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { state_string 
+action:s158
+Step100:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 129 149 158 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) { state_string } 
+action:r18
+Step101:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block 
+action:s150
+Step102:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else 
+action:s127
+Step103:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { 
+action:s40
+Step104:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 40 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { identifier 
+action:s50
+Step105:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 40 50 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { identifier = 
+action:s60
+Step106:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 40 50 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { identifier = identifier 
+action:r53
+Step107:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 40 50 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { identifier = divisor 
+action:r47
+Step108:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 40 50 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { identifier = item 
+action:r44
+Step109:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 40 50 55 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { identifier = add_expression 
+action:r35
+Step110:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 40 50 66 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { identifier = expression 
+action:s88
+Step111:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 40 50 66 88 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { identifier = expression ; 
+action:r28
+Step112:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 39 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { assign_state 
+action:r27
+Step113:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 35 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { state 
+action:r22
+Step114:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 147 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { state_string 
+action:s156
+Step115:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 127 147 156 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else { state_string } 
+action:r18
+Step116:
+StateStack:0 4 7 13 16 22 27 31 35 44 63 87 111 130 150 159 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if ( expression ) state_block else state_block 
+action:r34
+Step117:
+StateStack:0 4 7 13 16 22 27 31 35 36 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state if_state 
+action:r24
+Step118:
+StateStack:0 4 7 13 16 22 27 31 35 35 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state 
+action:s43
+Step119:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while 
+action:s62
+Step120:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( 
+action:s60
+Step121:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( identifier 
+action:r53
+Step122:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( divisor 
+action:r47
+Step123:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( item 
+action:r44
+Step124:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 55 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( add_expression 
+action:s72
+Step125:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 55 72 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( add_expression <= 
+action:r39
+Step126:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 55 70 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( add_expression relop 
+action:s59
+Step127:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 55 70 59 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( add_expression relop number 
+action:r50
+Step128:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 55 70 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( add_expression relop divisor 
+action:r47
+Step129:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 55 70 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( add_expression relop item 
+action:r44
+Step130:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 55 70 55 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( add_expression relop add_expression 
+action:r35
+Step131:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 55 70 91 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( add_expression relop expression 
+action:r37
+Step132:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression 
+action:s110
+Step133:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) 
+action:s127
+Step134:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { 
+action:s40
+Step135:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier 
+action:s50
+Step136:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = 
+action:s60
+Step137:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = identifier 
+action:r53
+Step138:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = divisor 
+action:s81
+Step139:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 58 81 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = divisor * 
+action:s59
+Step140:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 58 81 59 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = divisor * number 
+action:r50
+Step141:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 58 81 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = divisor * divisor 
+action:r47
+Step142:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 58 81 97 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = divisor * item 
+action:r48
+Step143:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = item 
+action:r44
+Step144:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 55 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = add_expression 
+action:r35
+Step145:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 66 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = expression 
+action:s88
+Step146:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 40 50 66 88 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { identifier = expression ; 
+action:r28
+Step147:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 39 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { assign_state 
+action:r27
+Step148:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 35 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { state 
+action:r22
+Step149:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 147 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { state_string 
+action:s156
+Step150:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 127 147 156 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) { state_string } 
+action:r18
+Step151:
+StateStack:0 4 7 13 16 22 27 31 35 35 43 62 86 110 128 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while ( expression ) state_block 
+action:r32
+Step152:
+StateStack:0 4 7 13 16 22 27 31 35 35 37 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state while_state 
+action:r25
+Step153:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state 
+action:s42
+Step154:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return 
+action:s60
+Step155:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return identifier 
+action:r53
+Step156:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return divisor 
+action:r47
+Step157:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return item 
+action:s79
+Step158:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 57 79 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return item + 
+action:s60
+Step159:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 57 79 60 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return item + identifier 
+action:r53
+Step160:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 57 79 58 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return item + divisor 
+action:r47
+Step161:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 57 79 57 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return item + item 
+action:r44
+Step162:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 57 79 94 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return item + add_expression 
+action:r45
+Step163:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 55 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return add_expression 
+action:r35
+Step164:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 54 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return expression 
+action:s69
+Step165:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 42 54 69 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return expression ; 
+action:r31
+Step166:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 38 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state return_state 
+action:r26
+Step167:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 35 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state state 
+action:r22
+Step168:
+StateStack:0 4 7 13 16 22 27 31 35 35 35 49 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state state_string 
+action:r23
+Step169:
+StateStack:0 4 7 13 16 22 27 31 35 35 49 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state state_string 
+action:r23
+Step170:
+StateStack:0 4 7 13 16 22 27 31 35 49 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state state_string 
+action:r23
+Step171:
+StateStack:0 4 7 13 16 22 27 31 45 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state_string 
+action:s64
+Step172:
+StateStack:0 4 7 13 16 22 27 31 45 64 
+SymbolStack:# int identifier ( formal_para ) { inter_declaration state_string } 
+action:r17
+Step173:
+StateStack:0 4 7 13 16 22 26 
+SymbolStack:# int identifier ( formal_para ) state_block 
+action:r9
+Step174:
+StateStack:0 4 7 10 
+SymbolStack:# int identifier func_declaration 
+action:r5
+Step175:
+StateStack:0 3 
+SymbolStack:# declaration 
+action:s4
+Step176:
+StateStack:0 3 4 
+SymbolStack:# declaration int 
+action:s7
+Step177:
+StateStack:0 3 4 7 
+SymbolStack:# declaration int identifier 
+action:s13
+Step178:
+StateStack:0 3 4 7 13 
+SymbolStack:# declaration int identifier ( 
+action:s20
+Step179:
+StateStack:0 3 4 7 13 20 
+SymbolStack:# declaration int identifier ( int 
+action:s24
+Step180:
+StateStack:0 3 4 7 13 20 24 
+SymbolStack:# declaration int identifier ( int identifier 
+action:r16
+Step181:
+StateStack:0 3 4 7 13 19 
+SymbolStack:# declaration int identifier ( para 
+action:r14
+Step182:
+StateStack:0 3 4 7 13 17 
+SymbolStack:# declaration int identifier ( para_list 
+action:r12
+Step183:
+StateStack:0 3 4 7 13 16 
+SymbolStack:# declaration int identifier ( formal_para 
+action:s22
+Step184:
+StateStack:0 3 4 7 13 16 22 
+SymbolStack:# declaration int identifier ( formal_para ) 
+action:s27
+Step185:
+StateStack:0 3 4 7 13 16 22 27 
+SymbolStack:# declaration int identifier ( formal_para ) { 
+action:s40
+Step186:
+StateStack:0 3 4 7 13 16 22 27 40 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier 
+action:s50
+Step187:
+StateStack:0 3 4 7 13 16 22 27 40 50 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = 
+action:s60
+Step188:
+StateStack:0 3 4 7 13 16 22 27 40 50 60 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = identifier 
+action:r53
+Step189:
+StateStack:0 3 4 7 13 16 22 27 40 50 58 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = divisor 
+action:r47
+Step190:
+StateStack:0 3 4 7 13 16 22 27 40 50 57 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = item 
+action:s79
+Step191:
+StateStack:0 3 4 7 13 16 22 27 40 50 57 79 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = item + 
+action:s59
+Step192:
+StateStack:0 3 4 7 13 16 22 27 40 50 57 79 59 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = item + number 
+action:r50
+Step193:
+StateStack:0 3 4 7 13 16 22 27 40 50 57 79 58 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = item + divisor 
+action:r47
+Step194:
+StateStack:0 3 4 7 13 16 22 27 40 50 57 79 57 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = item + item 
+action:r44
+Step195:
+StateStack:0 3 4 7 13 16 22 27 40 50 57 79 94 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = item + add_expression 
+action:r45
+Step196:
+StateStack:0 3 4 7 13 16 22 27 40 50 55 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = add_expression 
+action:r35
+Step197:
+StateStack:0 3 4 7 13 16 22 27 40 50 66 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = expression 
+action:s88
+Step198:
+StateStack:0 3 4 7 13 16 22 27 40 50 66 88 
+SymbolStack:# declaration int identifier ( formal_para ) { identifier = expression ; 
+action:r28
+Step199:
+StateStack:0 3 4 7 13 16 22 27 39 
+SymbolStack:# declaration int identifier ( formal_para ) { assign_state 
+action:r27
+Step200:
+StateStack:0 3 4 7 13 16 22 27 35 
+SymbolStack:# declaration int identifier ( formal_para ) { state 
+action:s42
+Step201:
+StateStack:0 3 4 7 13 16 22 27 35 42 
+SymbolStack:# declaration int identifier ( formal_para ) { state return 
+action:s60
+Step202:
+StateStack:0 3 4 7 13 16 22 27 35 42 60 
+SymbolStack:# declaration int identifier ( formal_para ) { state return identifier 
+action:r53
+Step203:
+StateStack:0 3 4 7 13 16 22 27 35 42 58 
+SymbolStack:# declaration int identifier ( formal_para ) { state return divisor 
+action:s81
+Step204:
+StateStack:0 3 4 7 13 16 22 27 35 42 58 81 
+SymbolStack:# declaration int identifier ( formal_para ) { state return divisor * 
+action:s59
+Step205:
+StateStack:0 3 4 7 13 16 22 27 35 42 58 81 59 
+SymbolStack:# declaration int identifier ( formal_para ) { state return divisor * number 
+action:r50
+Step206:
+StateStack:0 3 4 7 13 16 22 27 35 42 58 81 58 
+SymbolStack:# declaration int identifier ( formal_para ) { state return divisor * divisor 
+action:r47
+Step207:
+StateStack:0 3 4 7 13 16 22 27 35 42 58 81 97 
+SymbolStack:# declaration int identifier ( formal_para ) { state return divisor * item 
+action:r48
+Step208:
+StateStack:0 3 4 7 13 16 22 27 35 42 57 
+SymbolStack:# declaration int identifier ( formal_para ) { state return item 
+action:r44
+Step209:
+StateStack:0 3 4 7 13 16 22 27 35 42 55 
+SymbolStack:# declaration int identifier ( formal_para ) { state return add_expression 
+action:r35
+Step210:
+StateStack:0 3 4 7 13 16 22 27 35 42 54 
+SymbolStack:# declaration int identifier ( formal_para ) { state return expression 
+action:s69
+Step211:
+StateStack:0 3 4 7 13 16 22 27 35 42 54 69 
+SymbolStack:# declaration int identifier ( formal_para ) { state return expression ; 
+action:r31
+Step212:
+StateStack:0 3 4 7 13 16 22 27 35 38 
+SymbolStack:# declaration int identifier ( formal_para ) { state return_state 
+action:r26
+Step213:
+StateStack:0 3 4 7 13 16 22 27 35 35 
+SymbolStack:# declaration int identifier ( formal_para ) { state state 
+action:r22
+Step214:
+StateStack:0 3 4 7 13 16 22 27 35 49 
+SymbolStack:# declaration int identifier ( formal_para ) { state state_string 
+action:r23
+Step215:
+StateStack:0 3 4 7 13 16 22 27 32 
+SymbolStack:# declaration int identifier ( formal_para ) { state_string 
+action:s46
+Step216:
+StateStack:0 3 4 7 13 16 22 27 32 46 
+SymbolStack:# declaration int identifier ( formal_para ) { state_string } 
+action:r18
+Step217:
+StateStack:0 3 4 7 13 16 22 26 
+SymbolStack:# declaration int identifier ( formal_para ) state_block 
+action:r9
+Step218:
+StateStack:0 3 4 7 10 
+SymbolStack:# declaration int identifier func_declaration 
+action:r5
+Step219:
+StateStack:0 3 3 
+SymbolStack:# declaration declaration 
+action:s4
+Step220:
+StateStack:0 3 3 4 
+SymbolStack:# declaration declaration int 
+action:s7
+Step221:
+StateStack:0 3 3 4 7 
+SymbolStack:# declaration declaration int identifier 
+action:s14
+Step222:
+StateStack:0 3 3 4 7 14 
+SymbolStack:# declaration declaration int identifier [ 
+action:s21
+Step223:
+StateStack:0 3 3 4 7 14 21 
+SymbolStack:# declaration declaration int identifier [ number 
+action:s25
+Step224:
+StateStack:0 3 3 4 7 14 21 25 
+SymbolStack:# declaration declaration int identifier [ number ] 
+action:s14
+Step225:
+StateStack:0 3 3 4 7 14 21 25 14 
+SymbolStack:# declaration declaration int identifier [ number ] [ 
+action:s21
+Step226:
+StateStack:0 3 3 4 7 14 21 25 14 21 
+SymbolStack:# declaration declaration int identifier [ number ] [ number 
+action:s25
+Step227:
+StateStack:0 3 3 4 7 14 21 25 14 21 25 
+SymbolStack:# declaration declaration int identifier [ number ] [ number ] 
+action:s29
+Step228:
+StateStack:0 3 3 4 7 14 21 25 14 21 25 29 
+SymbolStack:# declaration declaration int identifier [ number ] [ number ] ; 
+action:r10
+Step229:
+StateStack:0 3 3 4 7 14 21 25 30 
+SymbolStack:# declaration declaration int identifier [ number ] array_declaration 
+action:r11
+Step230:
+StateStack:0 3 3 4 7 11 
+SymbolStack:# declaration declaration int identifier array_declaration 
+action:r6
+Step231:
+StateStack:0 3 3 3 
+SymbolStack:# declaration declaration declaration 
+action:s5
+Step232:
+StateStack:0 3 3 3 5 
+SymbolStack:# declaration declaration declaration void 
+action:s8
+Step233:
+StateStack:0 3 3 3 5 8 
+SymbolStack:# declaration declaration declaration void identifier 
+action:s13
+Step234:
+StateStack:0 3 3 3 5 8 13 
+SymbolStack:# declaration declaration declaration void identifier ( 
+action:s18
+Step235:
+StateStack:0 3 3 3 5 8 13 18 
+SymbolStack:# declaration declaration declaration void identifier ( void 
+action:r13
+Step236:
+StateStack:0 3 3 3 5 8 13 16 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para 
+action:s22
+Step237:
+StateStack:0 3 3 3 5 8 13 16 22 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) 
+action:s27
+Step238:
+StateStack:0 3 3 3 5 8 13 16 22 27 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { 
+action:s34
+Step239:
+StateStack:0 3 3 3 5 8 13 16 22 27 34 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { int 
+action:s48
+Step240:
+StateStack:0 3 3 3 5 8 13 16 22 27 34 48 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { int identifier 
+action:r21
+Step241:
+StateStack:0 3 3 3 5 8 13 16 22 27 33 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_argument_declaration 
+action:s47
+Step242:
+StateStack:0 3 3 3 5 8 13 16 22 27 33 47 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_argument_declaration ; 
+action:r19
+Step243:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration 
+action:s40
+Step244:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 40 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration identifier 
+action:s51
+Step245:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 40 51 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration identifier [ 
+action:s67
+Step246:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 40 51 67 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration identifier [ number 
+action:s89
+Step247:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 40 51 67 89 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration identifier [ number ] 
+action:s113
+Step248:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 40 51 67 89 113 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration identifier [ number ] [ 
+action:s131
+Step249:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 40 51 67 89 113 131 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration identifier [ number ] [ number 
+action:s151
+Step250:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 40 51 67 89 113 131 151 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration identifier [ number ] [ number ] 
+action:r57
+Step251:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 40 51 67 89 112 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration identifier [ number ] _array_ 
+action:r56
+Step252:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 41 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration array 
+action:s52
+Step253:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 41 52 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration array = 
+action:s59
+Step254:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 41 52 59 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration array = number 
+action:r50
+Step255:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 41 52 58 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration array = divisor 
+action:r47
+Step256:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 41 52 57 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration array = item 
+action:r44
+Step257:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 41 52 55 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration array = add_expression 
+action:r35
+Step258:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 41 52 68 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration array = expression 
+action:s90
+Step259:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 41 52 68 90 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration array = expression ; 
+action:r29
+Step260:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 39 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration assign_state 
+action:r27
+Step261:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state 
+action:s40
+Step262:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier 
+action:s50
+Step263:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = 
+action:s60
+Step264:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 60 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = identifier 
+action:s84
+Step265:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 60 84 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = identifier [ 
+action:s99
+Step266:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 60 84 99 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = identifier [ number 
+action:s114
+Step267:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 60 84 99 114 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = identifier [ number ] 
+action:s133
+Step268:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 60 84 99 114 133 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = identifier [ number ] [ 
+action:s152
+Step269:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 60 84 99 114 133 152 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = identifier [ number ] [ number 
+action:s161
+Step270:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 60 84 99 114 133 152 161 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = identifier [ number ] [ number ] 
+action:r57
+Step271:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 60 84 99 114 132 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = identifier [ number ] _array_ 
+action:r56
+Step272:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 61 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = array 
+action:r54
+Step273:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 58 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = divisor 
+action:r47
+Step274:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 57 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = item 
+action:r44
+Step275:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 55 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = add_expression 
+action:r35
+Step276:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 66 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = expression 
+action:s88
+Step277:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 40 50 66 88 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state identifier = expression ; 
+action:r28
+Step278:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 39 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state assign_state 
+action:r27
+Step279:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state 
+action:s40
+Step280:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 40 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state identifier 
+action:s51
+Step281:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 40 51 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state identifier [ 
+action:s67
+Step282:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 40 51 67 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state identifier [ number 
+action:s89
+Step283:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 40 51 67 89 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state identifier [ number ] 
+action:s113
+Step284:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 40 51 67 89 113 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state identifier [ number ] [ 
+action:s131
+Step285:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 40 51 67 89 113 131 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state identifier [ number ] [ number 
+action:s151
+Step286:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 40 51 67 89 113 131 151 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state identifier [ number ] [ number ] 
+action:r57
+Step287:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 40 51 67 89 112 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state identifier [ number ] _array_ 
+action:r56
+Step288:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array 
+action:s52
+Step289:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = 
+action:s60
+Step290:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 60 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = identifier 
+action:s84
+Step291:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 60 84 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = identifier [ 
+action:s99
+Step292:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 60 84 99 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = identifier [ number 
+action:s114
+Step293:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 60 84 99 114 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = identifier [ number ] 
+action:s133
+Step294:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 60 84 99 114 133 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = identifier [ number ] [ 
+action:s152
+Step295:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 60 84 99 114 133 152 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = identifier [ number ] [ number 
+action:s161
+Step296:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 60 84 99 114 133 152 161 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = identifier [ number ] [ number ] 
+action:r57
+Step297:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 60 84 99 114 132 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = identifier [ number ] _array_ 
+action:r56
+Step298:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 61 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = array 
+action:r54
+Step299:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 58 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = divisor 
+action:r47
+Step300:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 57 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = item 
+action:s79
+Step301:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 57 79 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = item + 
+action:s59
+Step302:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 57 79 59 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = item + number 
+action:r50
+Step303:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 57 79 58 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = item + divisor 
+action:r47
+Step304:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 57 79 57 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = item + item 
+action:r44
+Step305:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 57 79 94 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = item + add_expression 
+action:r45
+Step306:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 55 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = add_expression 
+action:r35
+Step307:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 68 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = expression 
+action:s90
+Step308:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 41 52 68 90 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state array = expression ; 
+action:r29
+Step309:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 39 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state assign_state 
+action:r27
+Step310:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state 
+action:s40
+Step311:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 40 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state identifier 
+action:s51
+Step312:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 40 51 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state identifier [ 
+action:s67
+Step313:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 40 51 67 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state identifier [ number 
+action:s89
+Step314:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 40 51 67 89 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state identifier [ number ] 
+action:s113
+Step315:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 40 51 67 89 113 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state identifier [ number ] [ 
+action:s131
+Step316:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 40 51 67 89 113 131 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state identifier [ number ] [ number 
+action:s151
+Step317:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 40 51 67 89 113 131 151 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state identifier [ number ] [ number ] 
+action:r57
+Step318:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 40 51 67 89 112 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state identifier [ number ] _array_ 
+action:r56
+Step319:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array 
+action:s52
+Step320:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = 
+action:s60
+Step321:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 60 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = identifier 
+action:s84
+Step322:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 60 84 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = identifier [ 
+action:s99
+Step323:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 60 84 99 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = identifier [ number 
+action:s114
+Step324:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 60 84 99 114 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = identifier [ number ] 
+action:s133
+Step325:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 60 84 99 114 133 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = identifier [ number ] [ 
+action:s152
+Step326:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 60 84 99 114 133 152 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = identifier [ number ] [ number 
+action:s161
+Step327:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 60 84 99 114 133 152 161 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = identifier [ number ] [ number ] 
+action:r57
+Step328:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 60 84 99 114 132 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = identifier [ number ] _array_ 
+action:r56
+Step329:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 61 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = array 
+action:r54
+Step330:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 58 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = divisor 
+action:r47
+Step331:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 57 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = item 
+action:s79
+Step332:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 57 79 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = item + 
+action:s59
+Step333:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 57 79 59 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = item + number 
+action:r50
+Step334:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 57 79 58 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = item + divisor 
+action:r47
+Step335:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 57 79 57 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = item + item 
+action:r44
+Step336:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 57 79 94 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = item + add_expression 
+action:r45
+Step337:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 55 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = add_expression 
+action:r35
+Step338:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 68 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = expression 
+action:s90
+Step339:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 41 52 68 90 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state array = expression ; 
+action:r29
+Step340:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 39 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state assign_state 
+action:r27
+Step341:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state 
+action:s40
+Step342:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 40 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state identifier 
+action:s51
+Step343:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 40 51 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state identifier [ 
+action:s67
+Step344:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 40 51 67 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state identifier [ number 
+action:s89
+Step345:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 40 51 67 89 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state identifier [ number ] 
+action:s113
+Step346:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 40 51 67 89 113 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state identifier [ number ] [ 
+action:s131
+Step347:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 40 51 67 89 113 131 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state identifier [ number ] [ number 
+action:s151
+Step348:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 40 51 67 89 113 131 151 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state identifier [ number ] [ number ] 
+action:r57
+Step349:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 40 51 67 89 112 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state identifier [ number ] _array_ 
+action:r56
+Step350:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array 
+action:s52
+Step351:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = 
+action:s60
+Step352:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier 
+action:s85
+Step353:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( 
+action:s105
+Step354:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 105 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( identifier 
+action:s123
+Step355:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 105 123 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( identifier [ 
+action:s142
+Step356:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 105 123 142 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( identifier [ number 
+action:s153
+Step357:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 105 123 142 153 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( identifier [ number ] 
+action:s163
+Step358:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 105 123 142 153 163 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( identifier [ number ] [ 
+action:s167
+Step359:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 105 123 142 153 163 167 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( identifier [ number ] [ number 
+action:s168
+Step360:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 105 123 142 153 163 167 168 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( identifier [ number ] [ number ] 
+action:r57
+Step361:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 105 123 142 153 162 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( identifier [ number ] _array_ 
+action:r56
+Step362:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 106 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( array 
+action:r54
+Step363:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 103 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( divisor 
+action:r47
+Step364:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 102 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( item 
+action:r44
+Step365:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 100 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( add_expression 
+action:r35
+Step366:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression 
+action:s126
+Step367:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , 
+action:s105
+Step368:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 105 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , identifier 
+action:s123
+Step369:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 105 123 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , identifier [ 
+action:s142
+Step370:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 105 123 142 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , identifier [ number 
+action:s153
+Step371:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 105 123 142 153 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , identifier [ number ] 
+action:s163
+Step372:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 105 123 142 153 163 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , identifier [ number ] [ 
+action:s167
+Step373:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 105 123 142 153 163 167 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , identifier [ number ] [ number 
+action:s168
+Step374:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 105 123 142 153 163 167 168 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , identifier [ number ] [ number ] 
+action:r57
+Step375:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 105 123 142 153 162 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , identifier [ number ] _array_ 
+action:r56
+Step376:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 106 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , array 
+action:r54
+Step377:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 103 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , divisor 
+action:r47
+Step378:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 102 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , item 
+action:r44
+Step379:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 100 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , add_expression 
+action:r35
+Step380:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression 
+action:s126
+Step381:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , 
+action:s105
+Step382:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier 
+action:s124
+Step383:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( 
+action:s105
+Step384:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 105 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( identifier 
+action:s123
+Step385:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 105 123 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( identifier [ 
+action:s142
+Step386:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 105 123 142 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( identifier [ number 
+action:s153
+Step387:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 105 123 142 153 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( identifier [ number ] 
+action:s163
+Step388:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 105 123 142 153 163 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( identifier [ number ] [ 
+action:s167
+Step389:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 105 123 142 153 163 167 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( identifier [ number ] [ number 
+action:s168
+Step390:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 105 123 142 153 163 167 168 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( identifier [ number ] [ number ] 
+action:r57
+Step391:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 105 123 142 153 162 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( identifier [ number ] _array_ 
+action:r56
+Step392:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 106 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( array 
+action:r54
+Step393:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 103 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( divisor 
+action:r47
+Step394:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 102 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( item 
+action:r44
+Step395:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 100 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( add_expression 
+action:r35
+Step396:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 109 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( expression 
+action:r61
+Step397:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 143 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( actual_para_list 
+action:s154
+Step398:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 124 143 154 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier ( actual_para_list ) 
+action:r59
+Step399:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 105 122 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , identifier call 
+action:r52
+Step400:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 103 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , divisor 
+action:r47
+Step401:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 102 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , item 
+action:r44
+Step402:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 100 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , add_expression 
+action:r35
+Step403:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 109 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , expression 
+action:r61
+Step404:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 109 126 145 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , expression , actual_para_list 
+action:r62
+Step405:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 109 126 145 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( expression , actual_para_list 
+action:r62
+Step406:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 107 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( actual_para_list 
+action:s125
+Step407:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 85 107 125 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier ( actual_para_list ) 
+action:r59
+Step408:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 60 83 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = identifier call 
+action:r52
+Step409:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 58 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = divisor 
+action:r47
+Step410:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 57 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = item 
+action:r44
+Step411:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 55 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = add_expression 
+action:r35
+Step412:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 68 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = expression 
+action:s90
+Step413:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 41 52 68 90 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state array = expression ; 
+action:r29
+Step414:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 39 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state assign_state 
+action:r27
+Step415:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state 
+action:s40
+Step416:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier 
+action:s50
+Step417:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = 
+action:s60
+Step418:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 60 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = identifier 
+action:s84
+Step419:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 60 84 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = identifier [ 
+action:s99
+Step420:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 60 84 99 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = identifier [ number 
+action:s114
+Step421:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 60 84 99 114 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = identifier [ number ] 
+action:s133
+Step422:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 60 84 99 114 133 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = identifier [ number ] [ 
+action:s152
+Step423:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 60 84 99 114 133 152 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = identifier [ number ] [ number 
+action:s161
+Step424:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 60 84 99 114 133 152 161 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = identifier [ number ] [ number ] 
+action:r57
+Step425:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 60 84 99 114 132 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = identifier [ number ] _array_ 
+action:r56
+Step426:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 61 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = array 
+action:r54
+Step427:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 58 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = divisor 
+action:r47
+Step428:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 57 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = item 
+action:r44
+Step429:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 55 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = add_expression 
+action:r35
+Step430:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 66 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = expression 
+action:s88
+Step431:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 40 50 66 88 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state identifier = expression ; 
+action:r28
+Step432:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 39 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state assign_state 
+action:r27
+Step433:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 35 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state state 
+action:s42
+Step434:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 35 42 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state state return 
+action:s53
+Step435:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 35 42 53 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state state return ; 
+action:r30
+Step436:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 35 38 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state state return_state 
+action:r26
+Step437:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 35 35 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state state state 
+action:r22
+Step438:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 35 49 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state state state_string 
+action:r23
+Step439:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 35 49 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state state_string 
+action:r23
+Step440:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 35 49 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state state_string 
+action:r23
+Step441:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 35 49 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state state_string 
+action:r23
+Step442:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 35 49 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state state_string 
+action:r23
+Step443:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 35 49 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state state_string 
+action:r23
+Step444:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 45 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state_string 
+action:s64
+Step445:
+StateStack:0 3 3 3 5 8 13 16 22 27 31 45 64 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) { inter_declaration state_string } 
+action:r17
+Step446:
+StateStack:0 3 3 3 5 8 13 16 22 26 
+SymbolStack:# declaration declaration declaration void identifier ( formal_para ) state_block 
+action:r9
+Step447:
+StateStack:0 3 3 3 5 8 15 
+SymbolStack:# declaration declaration declaration void identifier func_declaration 
+action:r7
+Step448:
+StateStack:0 3 3 3 3 
+SymbolStack:# declaration declaration declaration declaration 
+action:r2
+Step449:
+StateStack:0 3 3 3 6 
+SymbolStack:# declaration declaration declaration declaration_string 
+action:r3
+Step450:
+StateStack:0 3 3 6 
+SymbolStack:# declaration declaration declaration_string 
+action:r3
+Step451:
+StateStack:0 3 6 
+SymbolStack:# declaration declaration_string 
+action:r3
+Step452:
+StateStack:0 2 
+SymbolStack:# declaration_string 
+action:r1
+Step453:
+StateStack:0 1 
+SymbolStack:# program 
+action:a0
+Parsing Success!

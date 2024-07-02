@@ -1,0 +1,903 @@
+State0:
+int - s3
+program - g1
+type - g2
+void - s4
+State1:
+# - a0
+State2:
+identifier - s5
+State3:
+identifier - r2
+State4:
+identifier - r3
+State5:
+( - s6
+State6:
+formal_para - g7
+int - s11
+para - g10
+para_list - g8
+void - s9
+State7:
+) - s12
+State8:
+) - r4
+State9:
+) - r5
+State10:
+) - r6
+, - s13
+State11:
+identifier - s14
+State12:
+state_block - g15
+{ - s16
+State13:
+int - s11
+para - g10
+para_list - g17
+State14:
+) - r8
+, - r8
+State15:
+# - r1
+State16:
+assign_state - g26
+identifier - s27
+if - s30
+if_state - g23
+int - s21
+inter_argument_declaration - g20
+inter_declaration - g18
+return - s28
+return_state - g25
+state - g22
+state_string - g19
+while - s29
+while_state - g24
+State17:
+) - r7
+State18:
+assign_state - g26
+identifier - s27
+if - s30
+if_state - g23
+return - s28
+return_state - g25
+state - g22
+state_string - g31
+while - s29
+while_state - g24
+State19:
+} - s32
+State20:
+; - s33
+State21:
+identifier - s34
+State22:
+assign_state - g26
+identifier - s27
+if - s30
+if_state - g23
+return - s28
+return_state - g25
+state - g22
+state_string - g35
+while - s29
+while_state - g24
+} - r14
+State23:
+identifier - r16
+if - r16
+return - r16
+while - r16
+} - r16
+State24:
+identifier - r17
+if - r17
+return - r17
+while - r17
+} - r17
+State25:
+identifier - r18
+if - r18
+return - r18
+while - r18
+} - r18
+State26:
+identifier - r19
+if - r19
+return - r19
+while - r19
+} - r19
+State27:
+= - s36
+State28:
+( - s40
+; - s37
+add_expression - g39
+divisor - g42
+expression - g38
+identifier - s44
+item - g41
+number - s43
+State29:
+( - s45
+State30:
+( - s46
+State31:
+} - s47
+State32:
+# - r10
+else - r10
+identifier - r10
+if - r10
+return - r10
+while - r10
+} - r10
+State33:
+identifier - r11
+if - r11
+int - s21
+inter_argument_declaration - g20
+inter_declaration - g48
+return - r11
+while - r11
+State34:
+; - r13
+State35:
+} - r15
+State36:
+( - s40
+add_expression - g39
+divisor - g42
+expression - g49
+identifier - s44
+item - g41
+number - s43
+State37:
+identifier - r21
+if - r21
+return - r21
+while - r21
+} - r21
+State38:
+; - s50
+State39:
+!= - s57
+) - r26
+, - r26
+; - r26
+< - s52
+<= - s53
+== - s56
+> - s54
+>= - s55
+relop - g51
+State40:
+( - s40
+add_expression - g58
+divisor - g42
+expression - g59
+identifier - s44
+item - g41
+number - s43
+State41:
+!= - r35
+) - r35
++ - s60
+, - r35
+- - s61
+; - r35
+< - r35
+<= - r35
+== - r35
+> - r35
+>= - r35
+State42:
+!= - r38
+) - r38
+* - s62
++ - r38
+, - r38
+- - r38
+/ - s63
+; - r38
+< - r38
+<= - r38
+== - r38
+> - r38
+>= - r38
+State43:
+!= - r41
+) - r41
+* - r41
++ - r41
+, - r41
+- - r41
+/ - r41
+; - r41
+< - r41
+<= - r41
+== - r41
+> - r41
+>= - r41
+State44:
+!= - r44
+( - s66
+) - r44
+* - r44
++ - r44
+, - r44
+- - r44
+/ - r44
+; - r44
+< - r44
+<= - r44
+== - r44
+> - r44
+>= - r44
+call - g65
+ftype - g64
+State45:
+( - s40
+add_expression - g39
+divisor - g42
+expression - g67
+identifier - s44
+item - g41
+number - s43
+State46:
+( - s40
+add_expression - g39
+divisor - g42
+expression - g68
+identifier - s44
+item - g41
+number - s43
+State47:
+# - r9
+else - r9
+identifier - r9
+if - r9
+return - r9
+while - r9
+} - r9
+State48:
+identifier - r12
+if - r12
+return - r12
+while - r12
+State49:
+; - s69
+State50:
+identifier - r22
+if - r22
+return - r22
+while - r22
+} - r22
+State51:
+( - s40
+add_expression - g39
+divisor - g42
+expression - g70
+identifier - s44
+item - g41
+number - s43
+State52:
+( - r29
+identifier - r29
+number - r29
+State53:
+( - r30
+identifier - r30
+number - r30
+State54:
+( - r31
+identifier - r31
+number - r31
+State55:
+( - r32
+identifier - r32
+number - r32
+State56:
+( - r33
+identifier - r33
+number - r33
+State57:
+( - r34
+identifier - r34
+number - r34
+State58:
+!= - s57
+) - r26
+, - r26
+; - r26
+< - s52
+<= - s53
+== - s56
+> - s54
+>= - s55
+relop - g51
+State59:
+) - s72
+State60:
+( - s74
+add_expression - g73
+divisor - g42
+identifier - s44
+item - g41
+number - s43
+State61:
+( - s74
+add_expression - g75
+divisor - g42
+identifier - s44
+item - g41
+number - s43
+State62:
+( - s74
+divisor - g42
+identifier - s44
+item - g76
+number - s43
+State63:
+( - s74
+divisor - g42
+identifier - s44
+item - g77
+number - s43
+State64:
+!= - r43
+) - r43
+* - r43
++ - r43
+, - r43
+- - r43
+/ - r43
+; - r43
+< - r43
+<= - r43
+== - r43
+> - r43
+>= - r43
+State65:
+!= - r45
+) - r45
+* - r45
++ - r45
+, - r45
+- - r45
+/ - r45
+; - r45
+< - r45
+<= - r45
+== - r45
+> - r45
+>= - r45
+State66:
+( - s79
+) - s85
+actual_para - g84
+actual_para_list - g86
+add_expression - g78
+divisor - g81
+expression - g87
+identifier - s83
+item - g80
+number - s82
+State67:
+) - s88
+State68:
+) - s89
+State69:
+identifier - r20
+if - r20
+return - r20
+while - r20
+} - r20
+State70:
+) - r28
+, - r28
+; - r28
+State71:
+) - r27
+, - r27
+; - r27
+State72:
+!= - r42
+) - r42
+* - r42
++ - r42
+, - r42
+- - r42
+/ - r42
+; - r42
+< - r42
+<= - r42
+== - r42
+> - r42
+>= - r42
+State73:
+!= - r36
+) - r36
+, - r36
+; - r36
+< - r36
+<= - r36
+== - r36
+> - r36
+>= - r36
+State74:
+( - s40
+add_expression - g39
+divisor - g42
+expression - g59
+identifier - s44
+item - g41
+number - s43
+State75:
+!= - r37
+) - r37
+, - r37
+; - r37
+< - r37
+<= - r37
+== - r37
+> - r37
+>= - r37
+State76:
+!= - r39
+) - r39
++ - r39
+, - r39
+- - r39
+; - r39
+< - r39
+<= - r39
+== - r39
+> - r39
+>= - r39
+State77:
+!= - r40
+) - r40
++ - r40
+, - r40
+- - r40
+; - r40
+< - r40
+<= - r40
+== - r40
+> - r40
+>= - r40
+State78:
+!= - s57
+) - r26
+, - r26
+; - r26
+< - s52
+<= - s53
+== - s56
+> - s54
+>= - s55
+relop - g90
+State79:
+( - s40
+add_expression - g91
+divisor - g42
+expression - g92
+identifier - s44
+item - g41
+number - s43
+State80:
+!= - r35
+) - r35
++ - s93
+, - r35
+- - s94
+; - r35
+< - r35
+<= - r35
+== - r35
+> - r35
+>= - r35
+State81:
+!= - r38
+) - r38
+* - s95
++ - r38
+, - r38
+- - r38
+/ - s96
+; - r38
+< - r38
+<= - r38
+== - r38
+> - r38
+>= - r38
+State82:
+!= - r41
+) - r41
+* - r41
++ - r41
+, - r41
+- - r41
+/ - r41
+; - r41
+< - r41
+<= - r41
+== - r41
+> - r41
+>= - r41
+State83:
+!= - r44
+( - s99
+) - r44
+* - r44
++ - r44
+, - r44
+- - r44
+/ - r44
+; - r44
+< - r44
+<= - r44
+== - r44
+> - r44
+>= - r44
+call - g98
+ftype - g97
+State84:
+) - s100
+State85:
+!= - r47
+) - r47
+* - r47
++ - r47
+, - r47
+- - r47
+/ - r47
+; - r47
+< - r47
+<= - r47
+== - r47
+> - r47
+>= - r47
+State86:
+) - r48
+State87:
+) - r49
+, - s101
+State88:
+state_block - g103
+{ - s102
+State89:
+state_block - g105
+{ - s104
+State90:
+( - s79
+add_expression - g78
+divisor - g81
+expression - g106
+identifier - s83
+item - g80
+number - s82
+State91:
+!= - s57
+) - r26
+, - r26
+; - r26
+< - s52
+<= - s53
+== - s56
+> - s54
+>= - s55
+relop - g51
+State92:
+) - s108
+State93:
+( - s110
+add_expression - g109
+divisor - g81
+identifier - s83
+item - g80
+number - s82
+State94:
+( - s110
+add_expression - g111
+divisor - g81
+identifier - s83
+item - g80
+number - s82
+State95:
+( - s110
+divisor - g81
+identifier - s83
+item - g112
+number - s82
+State96:
+( - s110
+divisor - g81
+identifier - s83
+item - g113
+number - s82
+State97:
+!= - r43
+) - r43
+* - r43
++ - r43
+, - r43
+- - r43
+/ - r43
+; - r43
+< - r43
+<= - r43
+== - r43
+> - r43
+>= - r43
+State98:
+!= - r45
+) - r45
+* - r45
++ - r45
+, - r45
+- - r45
+/ - r45
+; - r45
+< - r45
+<= - r45
+== - r45
+> - r45
+>= - r45
+State99:
+( - s79
+) - s115
+actual_para - g114
+actual_para_list - g86
+add_expression - g78
+divisor - g81
+expression - g87
+identifier - s83
+item - g80
+number - s82
+State100:
+!= - r46
+) - r46
+* - r46
++ - r46
+, - r46
+- - r46
+/ - r46
+; - r46
+< - r46
+<= - r46
+== - r46
+> - r46
+>= - r46
+State101:
+( - s79
+actual_para_list - g116
+add_expression - g78
+divisor - g81
+expression - g87
+identifier - s83
+item - g80
+number - s82
+State102:
+assign_state - g26
+identifier - s27
+if - s30
+if_state - g23
+int - s21
+inter_argument_declaration - g20
+inter_declaration - g117
+return - s28
+return_state - g25
+state - g22
+state_string - g118
+while - s29
+while_state - g24
+State103:
+identifier - r23
+if - r23
+return - r23
+while - r23
+} - r23
+State104:
+assign_state - g26
+identifier - s27
+if - s30
+if_state - g23
+int - s21
+inter_argument_declaration - g20
+inter_declaration - g119
+return - s28
+return_state - g25
+state - g22
+state_string - g120
+while - s29
+while_state - g24
+State105:
+else - s121
+identifier - r24
+if - r24
+return - r24
+while - r24
+} - r24
+State106:
+) - r28
+, - r28
+; - r28
+State107:
+) - r27
+, - r27
+; - r27
+State108:
+!= - r42
+) - r42
+* - r42
++ - r42
+, - r42
+- - r42
+/ - r42
+; - r42
+< - r42
+<= - r42
+== - r42
+> - r42
+>= - r42
+State109:
+!= - r36
+) - r36
+, - r36
+; - r36
+< - r36
+<= - r36
+== - r36
+> - r36
+>= - r36
+State110:
+( - s40
+add_expression - g39
+divisor - g42
+expression - g92
+identifier - s44
+item - g41
+number - s43
+State111:
+!= - r37
+) - r37
+, - r37
+; - r37
+< - r37
+<= - r37
+== - r37
+> - r37
+>= - r37
+State112:
+!= - r39
+) - r39
++ - r39
+, - r39
+- - r39
+; - r39
+< - r39
+<= - r39
+== - r39
+> - r39
+>= - r39
+State113:
+!= - r40
+) - r40
++ - r40
+, - r40
+- - r40
+; - r40
+< - r40
+<= - r40
+== - r40
+> - r40
+>= - r40
+State114:
+) - s122
+State115:
+!= - r47
+) - r47
+* - r47
++ - r47
+, - r47
+- - r47
+/ - r47
+; - r47
+< - r47
+<= - r47
+== - r47
+> - r47
+>= - r47
+State116:
+) - r50
+State117:
+assign_state - g26
+identifier - s27
+if - s30
+if_state - g23
+return - s28
+return_state - g25
+state - g22
+state_string - g123
+while - s29
+while_state - g24
+State118:
+} - s124
+State119:
+assign_state - g26
+identifier - s27
+if - s30
+if_state - g23
+return - s28
+return_state - g25
+state - g22
+state_string - g125
+while - s29
+while_state - g24
+State120:
+} - s126
+State121:
+state_block - g127
+{ - s102
+State122:
+!= - r46
+) - r46
+* - r46
++ - r46
+, - r46
+- - r46
+/ - r46
+; - r46
+< - r46
+<= - r46
+== - r46
+> - r46
+>= - r46
+State123:
+} - s128
+State124:
+# - r10
+else - r10
+identifier - r10
+if - r10
+return - r10
+while - r10
+} - r10
+State125:
+} - s129
+State126:
+# - r10
+else - r10
+identifier - r10
+if - r10
+return - r10
+while - r10
+} - r10
+State127:
+identifier - r25
+if - r25
+return - r25
+while - r25
+} - r25
+State128:
+# - r9
+else - r9
+identifier - r9
+if - r9
+return - r9
+while - r9
+} - r9
+State129:
+# - r9
+else - r9
+identifier - r9
+if - r9
+return - r9
+while - r9
+} - r9
